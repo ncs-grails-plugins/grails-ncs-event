@@ -1,0 +1,22 @@
+<plugin name='ncs-event' version='0.1' grailsVersion='1.3.7 &gt; *'>
+  <author>Your name</author>
+  <title>Plugin summary/headline</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/ncs-event</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>edu.umn.ncs.EventOfInterest</resource>
+    <resource>edu.umn.ncs.EventPickOne</resource>
+    <resource>edu.umn.ncs.EventReport</resource>
+    <resource>edu.umn.ncs.EventResult</resource>
+    <resource>edu.umn.ncs.EventSource</resource>
+    <resource>edu.umn.ncs.EventType</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
