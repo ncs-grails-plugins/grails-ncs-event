@@ -1,8 +1,11 @@
-<plugin name='ncs-event' version='0.1' grailsVersion='1.3.7 &gt; *'>
-  <author>Your name</author>
-  <title>Plugin summary/headline</title>
+<plugin name='ncs-event' version='1.1' grailsVersion='1.3.7 &gt; *'>
+  <author>Aaron Zirbes and Aaron Timbo</author>
+  <authorEmail>ajz@umn.edu</authorEmail>
+  <title>Event Tracking</title>
   <description>\
-Brief description of the plugin.
+Handle the tracking events of interest.
+Events are anything that may be of interest to the study.  These often include
+births, deaths, medical events (cancer, infarts, etc...)
 </description>
   <documentation>http://grails.org/plugin/ncs-event</documentation>
   <resources>
@@ -17,6 +20,9 @@ Brief description of the plugin.
     <resource>edu.umn.ncs.EventSource</resource>
     <resource>edu.umn.ncs.EventType</resource>
   </resources>
-  <dependencies />
+  <dependencies>
+    <plugin name='ncsPeople' version='0.1 &gt; *' />
+    <plugin name='ncsTracking' version='1.0 &gt; *' />
+  </dependencies>
   <behavior />
 </plugin>

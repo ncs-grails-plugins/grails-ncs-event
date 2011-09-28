@@ -4,7 +4,7 @@ class NcsEventGrailsPlugin {
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.7 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [ncs-people:0.2]
+    def dependsOn = [ ncsPeople : "0.1 > *", ncsTracking : "1.0 > *"]
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
