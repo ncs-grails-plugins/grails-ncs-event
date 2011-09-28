@@ -1,6 +1,6 @@
 class NcsEventGrailsPlugin {
     // the plugin version
-    def version = "0.1"
+    def version = "1.1"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.7 > *"
     // the other plugins this plugin depends on
@@ -13,9 +13,11 @@ class NcsEventGrailsPlugin {
     // TODO Fill in these fields
     def author = "Aaron Zirbes and Aaron Timbo"
     def authorEmail = "ajz@umn.edu"
-    def title = "Event"
+    def title = "Event Tracking"
     def description = '''\\
-Handle events of interest reporting.
+Handle the tracking events of interest.
+Events are anything that may be of interest to the study.  These often include
+births, deaths, medical events (cancer, infarts, etc...)
 '''
 
     // URL to the plugin's documentation
