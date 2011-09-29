@@ -22,7 +22,7 @@ births, deaths, medical events (cancer, infarts, etc...)
   </resources>
   <dependencies>
     <plugin name='ncsPeople' version='0.1 &gt; *' />
-    <plugin name='ncsTracking' version='1.0 &gt; *' />
+    <plugin name='ncsTracking' version='0.6 &gt; *' />
   </dependencies>
   <behavior />
 </plugin>

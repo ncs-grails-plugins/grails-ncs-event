@@ -51,5 +51,12 @@ class EventReport {
 		filledOutBy()
 		filledOutDate()
 		comments(nullable:true)
+		source(nullable:true)
+
+		dateCreated(display:false, editable:false)
+		userCreated(display:false, editable:false)
+		appCreated(display:false, editable:false)
+		lastUpdated(nullable:true, display:false, editable:false)
+		userUpdated(nullable:true, display:false, editable:false)
     }
 }
