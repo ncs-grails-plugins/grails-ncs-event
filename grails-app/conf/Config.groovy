@@ -1,24 +1,13 @@
-// configuration for plugin testing - will not be included in the plugin zip
- 
-log4j = {
-    // Example of changing the log pattern for the default console
-    // appender:
-    //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
+ls.config.locations = [ "file:/etc/grails/ncs-case-management-config.groovy" ]
+a
+// grails.doc.authors - The authors of the documentation
+grails.doc.authors = "Aaron J. Zirbes"
+// grails.doc.license - The license of the software
+grails.doc.license = "GNU General Public License, version 3"
+// grails.doc.copyright - The copyright message to display
+grails.doc.copyright = "Copyright (c) Regeants of the University of Minnesota, 2011.  Written the National Children's Study"
+// grails.doc.footer - The footer to use
+grails.doc.footer = "https://www.healthstudies.umn.edu/ | http://nationalchildrensstudy.gov/"
 
-    error  'org.codehaus.groovy.grails.web.servlet',  //  controllers
-           'org.codehaus.groovy.grails.web.pages', //  GSP
-           'org.codehaus.groovy.grails.web.sitemesh', //  layouts
-           'org.codehaus.groovy.grails.web.mapping.filter', // URL mapping
-           'org.codehaus.groovy.grails.web.mapping', // URL mapping
-           'org.codehaus.groovy.grails.commons', // core / classloading
-           'org.codehaus.groovy.grails.plugins', // plugins
-           'org.codehaus.groovy.grails.orm.hibernate', // hibernate integration
-           'org.springframework',
-           'org.hibernate',
-           'net.sf.ehcache.hibernate'
-
-    warn   'org.mortbay.log'
-}
+grails.views.default.codec="none" // none, html, base64
+grails.views.gsp.encoding="UTF-8"
